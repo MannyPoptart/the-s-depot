@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=MedievalSharp&family=Petit+Formal+Script&display=swap');
+/*  font-family: 'Bubblegum Sans', sans-serif;
+
+    font-family: 'MedievalSharp', cursive;
+
+    font-family: 'Petit Formal Script', cursive; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: linear-gradient(180deg, salmon, 65%, #7851a9);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.home header {
+    justify-content: space-between;
+    padding: 3%;
+    text-align: center;
+    top: 0;
+    font-size: 24pt;
+}
+
+.home footer {
+    justify-content: space-between;
+    padding: 2%;
+    border: purple solid 2px;
+}
+
+.home footer p {
+    padding: 2%;
+}
+
+.home footer q {
+    padding: 3%;
+}
+
+.home footer ul {
+    display: flex;
+    gap: 1cm;
+    list-style: none;
+    padding: 3%;
+}
+
+.home footer li a {
+    color: pink;
+    font-size: 16pt;
+    text-decoration: none;
+    
+}
+
+.content {
+    justify-content: space-between;
+    padding: 2%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.content p {
+    padding: 2%;
+}
+
+.content ul {
+    display: flex;
+    gap: 1cm;
+    list-style: none;
+    padding: 3%;
+}
+
+.content img {
+    width: 75%;
+}
