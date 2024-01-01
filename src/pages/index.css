@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=MedievalSharp&family=Petit+Formal+Script&display=swap');
+/*  font-family: 'Bubblegum Sans', sans-serif;
+
+    font-family: 'MedievalSharp', cursive;
+
+    font-family: 'Petit Formal Script', cursive; */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +16,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'MedievalSharp', cursive;
 }
 
 .home header {
@@ -15,12 +24,21 @@
     padding: 3%;
     text-align: center;
     top: 0;
+    font-size: 24pt;
 }
 
 .home footer {
     justify-content: space-between;
     padding: 2%;
     border: purple solid 2px;
+}
+
+.home footer p {
+    padding: 2%;
+}
+
+.home footer q {
+    padding: 3%;
 }
 
 .home footer ul {
