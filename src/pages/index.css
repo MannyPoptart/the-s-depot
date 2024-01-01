@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: linear-gradient(180deg, salmon, 65%, #7851a9);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home header {
+    justify-content: space-between;
+    padding: 3%;
+    text-align: center;
+    top: 0;
+}
+
+.home footer {
+    justify-content: space-between;
+    padding: 2%;
+    border: purple solid 2px;
+}
+
+.home footer ul {
+    display: flex;
+    gap: 1cm;
+    list-style: none;
+    padding: 3%;
+}
+
+.home footer li a {
+    color: pink;
+    font-size: 16pt;
+    text-decoration: none;
+    
+}
+
+.content {
+    justify-content: space-between;
+    padding: 2%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.content p {
+    padding: 2%;
+}
