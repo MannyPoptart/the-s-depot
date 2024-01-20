@@ -12,19 +12,16 @@
 }
 
 html, body { 
-    height: 100%;
-    width: 100%; 
-}
-
-.home {
     background-image: linear-gradient(180deg, salmon, 65%, #7851a9);
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Bubblegum Sans', sans-serif;
+    overflow: auto;
 }
 
-.home header {
+
+.contact header {
     justify-content: space-between;
     padding: 3%;
     text-align: center;
@@ -32,41 +29,32 @@ html, body {
     font-size: 24pt;
 }
 
-.home footer {
+.contact footer {
     justify-content: space-between;
     padding: 2%;
-    border: purple solid 2px;
+    border-top: purple solid 2px;
 }
 
-.home footer p {
+.contact footer p {
     padding: 2%;
 }
 
-.home footer q {
+.contact footer q {
     padding: 3%;
 }
 
-.home footer ul {
-    display: flex;
-    gap: 1cm;
-    list-style: none;
-    padding: 3%;
-}
 
-.home footer li a {
-    color: pink;
-    font-size: 16pt;
-    text-decoration: none;
-    
-}
-
-.content {
+#conC {
     justify-content: space-between;
-    padding: 2%;
+    padding: 1rem;
     flex-grow: 1;
     text-align: center;
 }
 
-.content p {
-    padding: 2%;
+#conC p {
+    padding: 1rem;
+}
+
+#conC img {
+    width: 35vh;
 }

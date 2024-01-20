@@ -1,5 +1,5 @@
 ---
-import './index.css'
+import '../styles/index.css'
 import Navbar from '../components/Navbar.astro';
 ---
 
@@ -8,7 +8,6 @@ import Navbar from '../components/Navbar.astro';
 		<meta charset="utf-8" />
 		<link rel="icon" href="../images/IMG_5804.JPG" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="viewport" content="height=device-height, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Hi! I'm Santi</title>
 
@@ -16,19 +15,19 @@ import Navbar from '../components/Navbar.astro';
 
 	<body class="home">
 
-		<header>
+		<header id='homeHeader'>
 			<h1>Hi, I'm Santi</h1>
 		</header>
 
 		<Navbar />
 
-		<section class="content">
+		<section id="content">
 			<p>Hi I'm Santi, and I like Fortnite, Pokemon TCG, and Casinos.</p>
 			<p>I like eating Cheetos, Burger King and sometimes Tamales.</p>
 			<img src="../images/IMG_5804.JPG" alt="Fortnite Santi" />
 		</section>
 
-		<footer>
+		<footer id='homeFooter'>
 			<q>Actively trying to do better.</q>
 			<p>Santi Corp. &copy 2024</p>
 		</footer>
