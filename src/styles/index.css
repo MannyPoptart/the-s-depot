@@ -30,6 +30,14 @@ html, body {
     border-top: purple solid 2px;
 }
 
+#homeFooter p {
+    padding: 2%;
+}
+
+#homeFooter q {
+    padding: 3%;
+}
+
 #content {
     padding: 1rem;
     text-align: center;

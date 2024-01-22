@@ -43,6 +43,14 @@ html, body {
     padding: 3%;
 }
 
+.contact footer p {
+    padding: 2%;
+}
+
+.contact footer q {
+    padding: 3%;
+}
+
 
 #conC {
     justify-content: space-between;
