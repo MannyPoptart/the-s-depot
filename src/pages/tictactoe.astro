@@ -1,0 +1,46 @@
+---
+import '../styles/tictactoe.css';
+import Navbar from '../components/Navbar.astro';
+---
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../images/IMG_5804.JPG" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Hi! I'm Santi</title>
+
+	</head>
+
+	<body class="tictactoe">
+
+        <header>
+            <h1>Tic-Tac-Toe for Santi</h1>
+        </header>
+
+        <Navbar />
+
+        <div id="board">
+            <div class="cell" id="cell1"></div>
+            <div class="cell" id="cell2"></div>
+            <div class="cell" id="cell3"></div>
+            <div class="cell" id="cell4"></div>
+            <div class="cell" id="cell5"></div>
+            <div class="cell" id="cell6"></div>
+            <div class="cell" id="cell7"></div>
+            <div class="cell" id="cell8"></div>
+            <div class="cell" id="cell9"></div>
+        </div>
+    
+        <div id="playerTurn">Player ?'s Turn</div>
+    
+        <button id="resetBoard">Reset Board</button>
+
+        <script src="../scripts/tictactoe.js"></script>
+		
+
+	</body>
+
+</html>
