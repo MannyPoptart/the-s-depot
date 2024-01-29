@@ -20,8 +20,11 @@ html, body {
 }
 
 #homeHeader {
+    justify-content: space-between;
+    padding: 3%;
     text-align: center;
-    padding: 1rem;
+    top: 0;
+    font-size: 24pt;
 }
 
 #homeFooter {
