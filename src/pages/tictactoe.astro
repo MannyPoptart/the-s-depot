@@ -16,27 +16,35 @@ import Navbar from '../components/Navbar.astro';
 
 	<body class="tictactoe">
 
-        <header>
+        <header id='tttHeader'>
             <h1>Tic-Tac-Toe for Santi</h1>
         </header>
 
         <Navbar />
 
-        <div id="board">
-            <div class="cell" id="cell1"></div>
-            <div class="cell" id="cell2"></div>
-            <div class="cell" id="cell3"></div>
-            <div class="cell" id="cell4"></div>
-            <div class="cell" id="cell5"></div>
-            <div class="cell" id="cell6"></div>
-            <div class="cell" id="cell7"></div>
-            <div class="cell" id="cell8"></div>
-            <div class="cell" id="cell9"></div>
-        </div>
-    
-        <div id="playerTurn">Player ?'s Turn</div>
-    
-        <button id="resetBoard">Reset Board</button>
+        <section id="tttContent">
+
+            <div id="board">
+                <div class="cell" id="cell1"></div>
+                <div class="cell" id="cell2"></div>
+                <div class="cell" id="cell3"></div>
+                <div class="cell" id="cell4"></div>
+                <div class="cell" id="cell5"></div>
+                <div class="cell" id="cell6"></div>
+                <div class="cell" id="cell7"></div>
+                <div class="cell" id="cell8"></div>
+                <div class="cell" id="cell9"></div>
+            </div>
+        
+            <div id="playerTurn">Player ?'s Turn</div>
+        
+            <button id="resetBoard">Reset Board</button>
+        </section>
+
+        <footer id='tttFooter'>
+			<q>Actively trying to do better.</q>
+			<p>Santi Corp. &copy 2024</p>
+		</footer>
 
         <script src="../scripts/tictactoe.js"></script>
 		
